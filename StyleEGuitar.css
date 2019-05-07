@@ -1,0 +1,67 @@
+#wrapper { /* DEVELOPER: Jose Gutierrez, IS117-002, Spring 2019 */
+    margin-left:auto;
+    margin-right:auto;
+    width: 1920px;
+}
+
+html{
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+h1 a{
+	text-decoration: none;
+	color: white;
+}
+
+header h3{
+	font-family: none;
+	padding-right: 950px;
+}
+
+.gtitle{
+	position: absolute;
+	font-family: fantasy, sans-serif;
+	font-size: 300%;
+	padding-left: 80px;
+	margin-top: 40px;
+
+}
+
+.newlabel2x{
+	position: absolute;
+	padding-top: 90px;
+	padding-right: 80px;
+	margin-left: 390px;
+	z-index: 1;
+}
+
+.powercasterlistx{
+	position: absolute;
+	font-size: 120%;
+	margin-left: 600px;
+	margin-top: 220px;
+}
+
+.powercasterx{
+	position: absolute;
+	margin-top: 140px;
+	margin-left: 310px;
+}
+
+.powercastertitlex{
+	position: absolute;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 220%;
+	background-color: Gainsboro;
+	margin-top: 120px;
+	margin-left: -10px;
+	padding-left: 630px;
+	padding-right: 130px;
+	text-align: center;
+}
+
+
+*{
+	margin: 0;
+	padding: 0;
+}

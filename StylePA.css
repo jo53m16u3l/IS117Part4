@@ -1,0 +1,65 @@
+#wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    width: 1920px;
+}
+
+html{
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+h1 a{
+	text-decoration: none;
+	color: white;
+}
+
+header h3{  /* DEVELOPER: Jose Gutierrez, IS117-002, Spring 2019 */
+	font-family: none;
+	padding-right: 950px;
+}
+
+.livesoundtitle{
+	position: absolute;
+	font-family: fantasy, sans-serif;
+	font-size: 300%;
+	margin-left: 80px;
+	margin-top:	40px;
+}
+
+.newlabelx{
+	position: absolute;
+	padding-top: 100px;
+	padding-right: 80px;
+	margin-left: 410px;
+	z-index: 1;
+}
+
+.drm212titlex{
+	position: absolute;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 220%;
+	background-color: Gainsboro;
+	margin-top: 120px;
+	margin-left: -60px;
+	padding-left: 770px;
+	padding-right: 215px;
+	text-align: center;
+}
+
+.drm212x{
+	position: absolute;
+	margin-top: 160px;
+	margin-left: 100px;
+}
+
+.drmlistx{
+	position: absolute;
+	font-size: 120%;
+	margin-left: 600px;
+	margin-top: 220px;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}

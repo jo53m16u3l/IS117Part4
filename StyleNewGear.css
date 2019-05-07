@@ -1,0 +1,157 @@
+#wrapper { /* DEVELOPER: Jose Gutierrez, IS117-002, Spring 2019 */
+    margin-left:auto;
+    margin-right:auto;
+    width: 1903px;
+}
+
+html{
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+h1 a{
+	text-decoration: none;
+	color: white;
+}
+
+header h3{
+	font-family: none;
+	padding-right: 950px;
+}
+
+main h1{
+	float: left;
+	font-family: fantasy, sans-serif;
+	margin-top: 40px;
+	margin-left: 80px;
+	font-size: 300%;
+}
+
+main h3{
+	float: left;
+	margin-top: 100px;
+	margin-left: -210px;
+}
+
+.newlabel1{
+	position: absolute;
+	padding-top: 30px;
+	padding-right: 80px;
+	margin-left: 380px;
+	z-index: 2;
+}
+
+.drmlist{
+	position: absolute;
+	font-size: 120%;
+	margin-left: 600px;
+	margin-top: 250px;
+}
+
+.drm212{
+	position: absolute;
+	margin-top: 190px;
+	margin-left: -150px;
+}
+
+.drm212title{
+	position: absolute;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 220%;
+	background-color: Gainsboro;
+	margin-top: 150px;
+	margin-left: -60px;
+	padding-left: 770px;
+	padding-right: 215px;
+	text-align: center;
+}
+
+.guitars{
+	position: absolute;
+	margin-top: 560px;
+}
+
+.newlabel2{
+	position: absolute;
+	padding-top: 650px;
+	padding-right: 80px;
+	margin-left: 170px;
+	z-index: 2;
+}
+
+.new2019txt2{
+	position: absolute;
+	font-size: 125%;
+	margin-top: 620px;
+	margin-left: 94px;
+}
+
+.powercasterlist{
+	position: absolute;
+	font-size: 120%;
+	margin-left: 600px;
+	margin-top: 785px;
+}
+
+.powercaster{
+	position: absolute;
+	margin-top: 690px;
+	margin-left: 60px;
+}
+
+.powercastertitle{
+	position: absolute;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 220%;
+	background-color: Gainsboro;
+	margin-top: 680px;
+	margin-left: -10px;
+	padding-left: 630px;
+	padding-right: 130px;
+	text-align: center;
+}
+
+.ampfx{
+	position: absolute;
+	margin-top: 1250px;
+}
+
+.newlabel3{
+	position: absolute;
+	padding-top: 1350px;
+	padding-right: 80px;
+	margin-left: 180px;
+	z-index: 1;
+}
+
+.new2019txt3{
+	position: absolute;
+	font-size: 125%;
+	margin-top: 1310px;
+	margin-left: 94px;
+}
+
+.SLOlist{
+	position: absolute;
+	font-size: 120%;
+	margin-left: 600px;
+	margin-top: 1478px;
+}
+
+.SLO{
+	position: absolute;
+	margin-top: 1410px;
+	margin-left: -170px;
+	padding-bottom: 30px;
+}
+
+.SLOtitle{
+	position: absolute;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 220%;
+	background-color: Gainsboro;
+	margin-top: 1370px;
+	margin-left: -10px;
+	padding-left: 670px;
+	padding-right: 210px;
+	text-align: center;
+}

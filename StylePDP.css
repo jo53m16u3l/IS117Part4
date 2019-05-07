@@ -1,0 +1,296 @@
+#wrapper { /* DEVELOPER: Jose Gutierrez, IS117-002, Spring 2019 */
+    margin-left:auto;
+    margin-right:auto;
+    width: 1900px;
+}
+
+header{
+	height: 80px;   
+	background: linear-gradient(black 10%,grey 130%);
+}
+
+header img{
+	float: left;
+	padding-left: .75em;
+	padding-right: .75em;
+	padding-top: .25em;
+}
+
+header h1{
+	font-size: 250%;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	color: white;
+	padding-top: .25em;
+	text-shadow: 2px 2px 6px #FF0000;
+}
+
+header h3{
+	float: right;
+	color: white;
+	padding-right: 950px;
+	padding-top: 30px;
+	text-shadow: 2px 2px 6px black;
+}
+
+header nav{
+	position: relative;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	color: white;
+	border: 3px;
+	border-style: solid;
+	border-color: DarkRed;
+	background: FireBrick;
+	padding-left: 90px;
+	padding-right: 1069px;
+	margin-top: 16px;
+	z-index: 2;
+}
+
+nav ul{
+	list-style: none;
+	font-size: 110%;
+}
+
+nav li{
+	display: inline-block;
+	margin-left: 30px;
+	margin-right: 10px;
+	z-index: 1;
+}
+
+nav a{
+	text-decoration: none;
+	color: white;
+}
+
+nav a:hover{
+	color: white;
+	text-shadow: 2px 2px 6px black;
+	text-decoration: underline;
+}
+
+#slider{
+	overflow: hidden;
+}
+
+#slider figure{
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation: 20s slider infinite;
+}
+
+#slider figure img{
+	width: 20%;
+	float: left;
+}
+
+@keyframes slider{
+	0% {
+		left: 0;
+	}
+	8%{
+		left: 0;
+	}
+	20% {
+		left: -50%;
+	}
+	25%{
+		left: -50%;
+	}
+	45%{
+		left: -120%;
+	}
+	50%{
+		left: -120%;
+	}
+	70%{
+		left: -180%;
+	}
+	75%{
+		left: -180%;
+	}
+	95%{
+		left: -235%;
+	}	
+}
+
+.Picturetext{
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	padding-left: 470px;
+	font-style: italic;	
+	font-size: 330%;
+	text-shadow: 4px 4px 4px black;
+	position: absolute;
+	top: 30%;
+	left: 10px;
+}
+
+.Picturetext a{
+	position: sticky;
+	color: white;
+	text-decoration: none;
+}
+
+.Picturetext a:hover{
+	color: white;
+	text-decoration: underline;
+}
+
+.horizontal-line{
+	width: 1300px;
+	height: 2px;
+	background-color: black;
+	margin-top: 10px;
+	margin-left: 60px;
+}
+
+.vertical-line{
+	float: right;
+	width: 1px;
+	height: 250px;
+	background-color: GoldenRod;
+	margin-top: 10px;
+	margin-left: 60px;
+	margin-right: 410px;
+}
+
+.welcome{
+	float: left;
+	font-family: fantasy, sans-serif;
+	font-size: 250%;
+	margin-left: 60px;
+	margin-top: 10px;
+	padding-left: 3px;
+	padding-right: 10px;
+	background-color: red;
+	text-shadow: 2px 2px 3px AliceBlue;
+	z-index: 1;
+}
+
+body p{
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	margin-left: 60px;
+	margin-top: 70px;
+	padding-bottom: 50px;
+}
+
+.Ylogo{
+	position: absolute;
+	margin-left: 810px;
+	margin-top: 20px;
+}
+
+.mackielogo{
+	position: absolute;
+	margin-left: 630px;
+	margin-top: 10px;
+}
+
+.Zlogo{
+	position: absolute;
+	margin-left: 815px;
+	margin-top: 90px;
+}
+
+.DWlogo{
+	position: absolute;
+	margin-left: 660px;
+	margin-top: 85px;
+}
+
+.fenderlogo{
+	position: absolute;
+	margin-left: 650px;
+	margin-top: 190px;
+}
+
+.taylorlogo{
+	position: absolute;
+	margin-left: 820px;
+	margin-top: 160px;
+}
+
+.Newpic{
+	position: absolute;
+	margin-left: 995px;
+	margin-top: 75px;
+	max-height: 100%;
+	max-width: 100%;
+	overflow: hidden;
+}
+
+.Newpic:hover{
+	transition: 1s;
+	transform: scale(1.05);
+	z-index: 2;
+}
+
+.NewGtxt{
+	position: absolute;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	margin-left: 995px;
+	margin-top: 20px;
+	padding-left: 10px;
+	padding-right: 87px;
+	padding-bottom: 5px;
+	color: white;
+	background-color: Indigo;
+}
+
+.NewGtxt a{
+	color: white;
+	text-decoration: none;
+}
+
+.NewGtxt a:hover{
+	color: white;
+	text-shadow: 2px 3px 21px black;
+	text-decoration: underline;
+}
+
+aside{
+	float: right;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	padding-right: -80px;
+	margin-top: 20px;
+	margin-right: 60px;
+	font-size: 140%;
+	background-color: OldLace;
+}
+
+aside p{
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: -80px;
+	padding-bottom: 90px;
+}
+
+aside h1{
+	color: white;
+	background: GoldenRod;
+	padding: 3px;
+	padding-bottom: 5px;
+	text-shadow: 2px 2px 4px black;
+	margin-left: 1px;
+}
+.button{
+	float: right;
+	padding: 7px;
+	margin-right: 90px;
+	margin-top: -50px;
+}
+
+#email{
+	margin-top: 10px;
+	padding: 4px;
+	padding-right: 10px;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+

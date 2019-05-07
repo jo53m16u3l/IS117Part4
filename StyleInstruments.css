@@ -1,0 +1,180 @@
+#wrapper { /* DEVELOPER: Jose Gutierrez, IS117-002, Spring 2019 */
+    margin-left:auto;
+    margin-right:auto;
+    width: 1903px;
+}
+
+h1 a{
+	text-decoration: none;
+	color: white;
+}
+
+header h3{
+	padding-right: 933px;
+}
+
+header nav{
+	padding-right: 80px;
+}
+
+.Bassguitar{
+	position: absolute;
+	padding-top: 90px;
+	padding-left: 490px;
+	transform: rotate(-7deg);
+}	
+
+.Electricguitar{
+	position: absolute;
+	padding-left: 850px;
+	padding-top: 50px;
+}
+
+.Acousticguitar{
+	position: absolute;
+	padding-left: 1150px;
+	padding-top: 540px;
+	transform: rotate(-42deg);
+}
+
+.Piano{
+	position: absolute;
+	padding-top: 490px;
+	padding-left: 631px;
+}
+
+.Drumset{
+	position: absolute;
+	padding-top: 400px;
+	padding-left: 980px;
+}
+
+.BGtext{
+	position: absolute;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	padding-left: 450px;
+	padding-top: 310px;
+	box-sizing: content-box;
+	width: 13%;
+	border: ridge DarkRed 12px;
+	padding-left: 70px;
+	padding-top: 280px;
+	margin-left: 455px;
+	margin-top: 30px;
+}
+
+.BGtext a{
+	color: black;
+}
+
+.BGtext a:hover{
+	color: black;
+	text-shadow: 2px 3px 21px black;
+	text-decoration: underline;
+}
+
+.EGtext{
+	position: absolute;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	padding-left: 740px;
+	padding-top: 310px;
+	box-sizing: content-box;
+	width: 14%;
+	border: ridge DarkRed 12px;
+	padding-left: 40px;
+	padding-top: 280px;
+	margin-left: 810px;
+	margin-top: 30px;
+}
+
+.EGtext a{
+	color: black;
+}
+
+.EGtext a:hover{
+	color: black;
+	text-shadow: 2px 3px 21px black;
+	text-decoration: underline;
+}
+
+.ACGtext{
+	position: absolute;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	padding-left: 1100px;
+	padding-top: 323px;
+	box-sizing: content-box;
+	width: 14.5%;
+	border: ridge DarkRed 12px;
+	padding-left: 23px;
+	padding-top: 280px;
+	margin-left: 1150px;
+	margin-top: 30px
+}
+
+.ACGtext a{
+	color: black;
+}
+
+.ACGtext a:hover{
+	color: black;
+	text-shadow: 2px 3px 21px black;
+	text-decoration: underline;
+}
+
+.Drumtext{
+	position: absolute;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	padding-top: 720px;
+	padding-left: 900px;
+	box-sizing: content-box;
+	width: 17.3%;
+	height: 3%;
+	border: ridge DarkRed 12px;
+	padding-left: 40px;
+	padding-top: 280px;
+	padding-bottom: 15px;
+	margin-left: 961px;
+	margin-top: 380px;
+	z-index: -1
+}
+.Drumtext a{
+	color: black;
+}
+
+.Drumtext a:hover{
+	color: black;
+	text-shadow: 2px 3px 21px black;
+	text-decoration: underline;
+}
+
+.Pianotext{
+	position: absolute;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	padding-top: 720px;
+	padding-left: 530px;
+	box-sizing: content-box;
+	width: 13%;
+	height: 3%;
+	border: ridge DarkRed 12px;
+	padding-left: 70px;
+	padding-top: 280px;
+	padding-bottom: 15px;
+	margin-left: 609px;
+	margin-top: 380px;
+	z-index: 1;
+}
+
+.Pianotext a{
+	color: black;
+}
+
+.Pianotext a:hover{
+	color: black;
+	text-shadow: 2px 3px 21px black;
+	text-decoration: underline;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}

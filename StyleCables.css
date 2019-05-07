@@ -1,0 +1,24 @@
+#wrapper {   /* DEVELOPER: Jose Gutierrez, IS117-002, Spring 2019 */
+    margin-left:auto;
+    margin-right:auto;
+    width: 1920px;
+}
+
+html{
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+h1 a{
+	text-decoration: none;
+	color: white;
+}
+
+header h3{
+	font-family: none;
+	padding-right: 950px;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
